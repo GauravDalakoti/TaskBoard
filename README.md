@@ -43,7 +43,7 @@ Users can create, update, delete, and manage their tasks efficiently.
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/task-manager.git
+git clone https://github.com/GauravDalakoti/TaskBoard.git
 cd task-manager
 
 cd backend
