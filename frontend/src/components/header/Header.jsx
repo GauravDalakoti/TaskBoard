@@ -59,13 +59,13 @@ function Header() {
                     <div className='flex  max-lg:hidden items-center justify-center gap-10'>
 
 
-                        <div className='flex gap-1 items-center hover:scale-105 transition-all duration-500'>
+                        <a href='/dashboard' className='flex gap-1 items-center hover:scale-105 transition-all duration-500'>
 
                             <img src={assets.dashboard} alt="" width={40} />
 
-                            <a href="/dashboard" className='font-semibold text-xl'>DashBoard</a>
+                            <div className='font-semibold text-xl'>DashBoard</div>
 
-                        </div>
+                        </a>
                         <div>
                             <button onClick={handleLogout} className='font-semibold hover:scale-105 border-2 border-black text-lg rounded-xl px-3 py-1 hover:bg-black hover:text-white hover:border-white'>logout</button>
                         </div>
@@ -88,15 +88,15 @@ function Header() {
 
                                 </ul>
 
-                                
 
-                                <div className='flex gap-1 items-center hover:scale-105 transition-all duration-500'>
+
+                                <a href='/dashboard' className='flex gap-1 items-center hover:scale-105 transition-all duration-500'>
 
                                     <img src={assets.dashboard} alt="" width={40} />
 
-                                    <a href="/dashboard" className='font-semibold text-xl'>DashBoard</a>
+                                    <div className='font-semibold text-xl'>DashBoard</div>
 
-                                </div>
+                                </a>
 
                                 <div>
                                     <button onClick={handleLogout} className='font-semibold hover:scale-105 border-2 border-black text-lg rounded-xl px-3 py-1 hover:bg-black hover:text-white hover:border-white'>logout</button>
