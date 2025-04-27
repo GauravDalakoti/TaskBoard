@@ -6,7 +6,7 @@ Users can create, update, delete, and manage their tasks efficiently.
 ## ✨ Features
 
 - **Task Creation**: Add new tasks with details like title, description, and status.
-- **Task Management**: Update task status (i, Completed).
+- **Task Management**: Update task status (inCompleted, Completed).
 - **Task Deletion**: Delete tasks easily.
 - **Authentication**: Secure login and signup using JWT (JSON Web Tokens).
 - **Dashboard**: View a list of all tasks with filtering options.
@@ -17,7 +17,7 @@ Users can create, update, delete, and manage their tasks efficiently.
 - **Backend**: Node.js, Express.js
 - **Database**: MongoDB
 - **Authentication**: JWT (JSON Web Tokens)
-- **Deployment**: Vercel (Frontend) and Render / Railway (Backend)
+- **Deployment**: Vercel 
 
 **Architecture Overview:**
 - Separated frontend and backend.
@@ -28,7 +28,7 @@ Users can create, update, delete, and manage their tasks efficiently.
 
 ## 🚀 Live Demo
 
-👉 [View Live Project Here](https://your-taskmanager-deployed-link.com)
+👉 [View Live Project Here](https://its-taskboard.vercel.app)
 
 ## 🧪 Test Credentials
 
