@@ -133,6 +133,11 @@ const Dashboard = () => {
 
     }
 
+    const handleNewTask=()=>{
+
+        navigate('/add-task')
+    }
+
 
     return (
         <div className='min-h-[87vh] '>
@@ -185,7 +190,7 @@ const Dashboard = () => {
                                 </div>
 
                                 <div>
-                                    <button className='bg-black text-white px-4 py-2 rounded-lg font-semibold'>add new task</button>
+                                    <button onClick={handleNewTask} className='bg-black hover:scale-105 transition-all duration-500 text-white px-4 py-2 rounded-lg font-semibold'>add new task</button>
                                 </div>
 
                                 </div>
