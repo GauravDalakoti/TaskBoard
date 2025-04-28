@@ -15,6 +15,7 @@ import { Provider } from 'react-redux'
 import store from './store/store.js'
 import EditTask from './components/editTask/EditTask.jsx'
 import UserProtectedRoute from './components/protectedRoute/UserProtectedRoute.jsx'
+import AddTask from './components/addTask/AddTask.jsx'
 
 const router = createBrowserRouter(
 
@@ -30,6 +31,7 @@ const router = createBrowserRouter(
       <Route path='/contact-us' element={<ContactUs />} />
       <Route path='/dashboard' element={<UserProtectedRoute><Dashboard /></UserProtectedRoute>} />
       <Route path='/edit-task/:id' element={<UserProtectedRoute><EditTask /></UserProtectedRoute>} />
+      <Route path='/add-task' element={<UserProtectedRoute><AddTask /></UserProtectedRoute>} />
       <Route path='*' element={<PageNotFound />} />
 
     </Route>

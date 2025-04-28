@@ -116,6 +116,7 @@ const Dashboard = () => {
                     const res = await response.json()
                     setTasks(res.data)
                     console.log(res);
+                   
                 }
 
             } catch (error) {
@@ -157,6 +158,7 @@ const Dashboard = () => {
 
                                 </div>
 
+                               <div className='flex items-center justify-between max-lg:flex-col max-lg:gap-3'>
                                 <div className="flex space-x-4 mb-6">
                             
                                     <button
@@ -180,6 +182,12 @@ const Dashboard = () => {
                                     >
                                         Completed
                                     </button>
+                                </div>
+
+                                <div>
+                                    <button className='bg-black text-white px-4 py-2 rounded-lg font-semibold'>add new task</button>
+                                </div>
+
                                 </div>
                                 <div className="flex justify-between mb-6 text-lg font-medium text-gray-700">
                                     <div className='font-semibold'>Total Tasks: <span className="text-green-600">{totalTasks}</span></div>
