@@ -74,7 +74,7 @@ function Header() {
                     {
                         displayMenu ? (
 
-                            <div className=' absolute top-0 right-0 w-[80vw] bg-gray-300  h-[100vh]'>
+                            <div className=' absolute top-0 right-0 w-[80vw] bg-gray-300 h-[100vh]'>
 
                                 <div className='flex  justify-end px-6 py-2 '>
                                     <img className='' onClick={handleDisplayMenu} src={assets.close} alt="" width={45} />
@@ -88,18 +88,19 @@ function Header() {
 
                                 </ul>
 
+                                <div className='flex flex-col gap-8 items-center'>
 
+                                    <a href='/dashboard' className='flex gap-1 items-center hover:scale-105 transition-all duration-500'>
 
-                                <a href='/dashboard' className='flex gap-1 items-center hover:scale-105 transition-all duration-500'>
+                                        <img src={assets.dashboard} alt="" width={40} />
 
-                                    <img src={assets.dashboard} alt="" width={40} />
+                                        <div className='font-semibold text-xl'>DashBoard</div>
 
-                                    <div className='font-semibold text-xl'>DashBoard</div>
+                                    </a>
 
-                                </a>
-
-                                <div>
-                                    <button onClick={handleLogout} className='font-semibold hover:scale-105 border-2 border-black text-lg rounded-xl px-3 py-1 hover:bg-black hover:text-white hover:border-white'>logout</button>
+                                    <div>
+                                        <button onClick={handleLogout} className='font-semibold hover:scale-105 border-2 border-black text-lg rounded-xl px-3 py-1 hover:bg-black hover:text-white hover:border-white'>logout</button>
+                                    </div>
                                 </div>
 
                             </div>
