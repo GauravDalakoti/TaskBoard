@@ -88,7 +88,7 @@ function Header() {
 
                                 </ul>
 
-                                <div className='flex flex-col gap-8 items-center'>
+                                <div className='flex flex-col gap-8 items-center mt-6'>
 
                                     <a href='/dashboard' className='flex gap-1 items-center hover:scale-105 transition-all duration-500'>
 
