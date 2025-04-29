@@ -46,7 +46,7 @@ const Dashboard = () => {
 
                 setLoading(false)
                 const res = await response.json()
-                console.log(res);
+                // console.log(res);
                 toast.success("Task Completed Successfully")
                 setTasks(tasks.map(task => task.id === id ? { ...task, status: 'complete' } : task));
             }
@@ -79,7 +79,7 @@ const Dashboard = () => {
 
                 setLoading(false)
                 const res = await response.json()
-                console.log(res);
+                // console.log(res);
                 toast.success("Task Deleted Successfully")
                 setTasks(tasks.filter(task => task.id !== id));
 
@@ -115,7 +115,7 @@ const Dashboard = () => {
                     setLoading(false)
                     const res = await response.json()
                     setTasks(res.data)
-                    console.log(res);
+                    // console.log(res);
                    
                 }
 

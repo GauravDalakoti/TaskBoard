@@ -42,7 +42,7 @@ const EditTask = () => {
                     setLoading(false)
                     const res = await response.json()
                     setTask({ title: res.data[0].title, description: res.data[0].description, status: res.data[0].status, priority: res.data[0].priority })
-                    console.log(res);
+                    // console.log(res);
                 }
 
             } catch (error) {
