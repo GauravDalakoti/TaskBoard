@@ -13,19 +13,19 @@ function ContactUs() {
 
                     <div className="flex items-center gap-2 max-lg:flex-col max-lg:justify-start  max-lg:items-start">
                         <label className="text-xl" htmlFor="fname">first Name</label>
-                        <input className="px-2 border-3 outline-none bg-gray-200 py-2 rounded-lg" type="text" placeholder="Enter your first name" id="fname" />
+                        <input className="px-2 border-3 outline-none bg-gray-200 py-2 rounded-lg max-lg:w-[80vw]" type="text" placeholder="Enter your first name" id="fname" />
                     </div>
                     <div className="flex items-center gap-2 max-lg:flex-col max-lg:justify-start  max-lg:items-start">
                         <label className="text-xl" htmlFor="lname">last Name</label>
-                        <input className="px-2 border-3 outline-none bg-gray-200 py-2 rounded-lg" type="text" placeholder="Enter your last name" id="lname" />
+                        <input className="px-2 border-3 outline-none bg-gray-200 py-2 rounded-lg max-lg:w-[80vw]" type="text" placeholder="Enter your last name" id="lname" />
                     </div>
                     <div className="flex items-center gap-2 max-lg:flex-col max-lg:justify-start max-lg:items-start">
                         <label className="text-xl" htmlFor="email">email</label>
-                        <input className="px-2 border-3 outline-none bg-gray-200 py-2 rounded-lg" type="email" placeholder="Enter your email" id="email" />
+                        <input className="px-2 border-3 outline-none bg-gray-200 py-2 rounded-lg max-lg:w-[80vw]" type="email" placeholder="Enter your email" id="email" />
                     </div>
                     <div className="flex items-center gap-2 max-lg:flex-col max-lg:justify-start max-lg:items-start">
                         <label className="text-xl" htmlFor="phonenumber">phone number</label>
-                        <input className="px-2 border-3 outline-none bg-gray-200 py-2 rounded-lg" type="text" placeholder="phone number" id="phonenumber" />
+                        <input className="px-2 border-3 outline-none bg-gray-200 py-2 rounded-lg max-lg:w-[80vw]" type="text" placeholder="phone number" id="phonenumber" />
                     </div>
 
                     <label className="text-xl" htmlFor="textarea">what can we help with you?</label>
