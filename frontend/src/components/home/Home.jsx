@@ -71,7 +71,7 @@ const Home = () => {
                         Master Your Tasks<br />With Ease
                     </h1>
                     <p className="text-gray-600 text-lg mb-8">
-                        Stay organized, prioritize your goals, and achieve more every day with TaskNest.
+                        Stay organized, prioritize your goals, and achieve more every day with TaskBoard.
                     </p>
                     <div className="flex space-x-4">
                         <a href="#add-task" className="px-6 py-3 bg-gradient-to-r from-indigo-500 to-purple-500 text-white rounded-full font-semibold hover:opacity-90 transition">
