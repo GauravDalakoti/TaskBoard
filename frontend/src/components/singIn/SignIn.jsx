@@ -94,7 +94,7 @@ function Login() {
                             <button className='bg-blue-500 hover:scale-105 w-[30vw] text-white rounded-lg px-4 py-3 font-semibold max-lg:w-[38vw] max-md:w-[60vw] max-sm:w-[80vw]' type='submit'>Sign In</button>
                         </div>
 
-                        <div className='flex text-[0.9em] max-lg:text-[0.75em]'>
+                        <div className='flex text-[0.9em] max-lg:text-[0.7em]'>
 
                             <p className='mx-1'>I agree to the </p>
                             <a href="/" className='text-green-600 hover:text-orange-600 cursor-pointer'>terms and conditions
