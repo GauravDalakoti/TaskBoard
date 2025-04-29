@@ -25,7 +25,7 @@ function ContactUs() {
                     </div>
                     <div className="flex items-center gap-2">
                         <label className="text-xl" htmlFor="phonenumber">phone number</label>
-                        <input className="px-2 border-3 outline-none bg-gray-200 py-2 rounded-lg" type="text" placeholder="phone number" id="phonenumber" />
+                        <input className="px-2 border-3 outline-none bg-gray-200 py-2 rounded-lg max-lg:w-[25vw]" type="text" placeholder="phone number" id="phonenumber" />
                     </div>
 
                     <label className="text-xl" htmlFor="textarea">what can we help with you?</label>
