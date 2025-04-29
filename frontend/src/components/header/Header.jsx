@@ -74,7 +74,7 @@ function Header() {
                     {
                         displayMenu ? (
 
-                            <div className='flex flex-col gap-8 items-center absolute top-0 right-0 w-[80vw] bg-gray-300 h-[100vh]'>
+                            <div className=' absolute top-0 right-0 w-[80vw] bg-gray-300  h-[100vh]'>
 
                                 <div className='flex  justify-end px-6 py-2 '>
                                     <img className='' onClick={handleDisplayMenu} src={assets.close} alt="" width={45} />
