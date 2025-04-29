@@ -7,7 +7,7 @@ function ContactUs() {
 
         <div className="w-6/7 m-auto flex justify-around my-8 min-h-[92vh] max-lg:flex-col-reverse max-lg:w-[90vw] max-lg:gap-4 ">
 
-            <div className="border-2 border-gray-400 p-6 rounded-lg h-fit max-lg:flex max-lg:flex-col max-lg:justify-center">
+            <div className="border-2 border-gray-400 p-6 rounded-lg h-fit">
 
                 <form action="#" className="flex flex-col gap-4 ">
 
