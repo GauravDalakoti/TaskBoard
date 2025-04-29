@@ -8,12 +8,12 @@ function Footer() {
                 <div className="md:flex md:justify-between">
                     <div className="mb-6 md:mb-0">
 
-                        <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">TaskBoard</span>
+                        <span className="self-center text-2xl font-semibold text-white whitespace-nowrap dark:text-white">TaskBoard</span>
 
                     </div>
                     <div className="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
                         <div>
-                            <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Resources</h2>
+                            <h2 className="mb-6 text-sm font-semibold text-white uppercase dark:text-white">Resources</h2>
                             <ul className="text-gray-500 dark:text-gray-400 font-medium">
                                 <li className="mb-4">
                                     <span className="hover:underline">TaskBoard</span>
@@ -24,7 +24,7 @@ function Footer() {
                             </ul>
                         </div>
                         <div>
-                            <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Follow us</h2>
+                            <h2 className="mb-6 text-sm font-semibold text-white uppercase dark:text-white">Follow us</h2>
                             <ul className="text-gray-500 dark:text-gray-400 font-medium">
                                 <li className="mb-4">
                                     <a href='/' className="hover:underline ">Github</a>
@@ -35,7 +35,7 @@ function Footer() {
                             </ul>
                         </div>
                         <div>
-                            <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Legal</h2>
+                            <h2 className="mb-6 text-sm font-semibold text-white uppercase dark:text-white">Legal</h2>
                             <ul className="text-gray-500 dark:text-gray-400 font-medium">
                                 <li className="mb-4">
                                     <a href="/" className="hover:underline">Privacy Policy</a>
