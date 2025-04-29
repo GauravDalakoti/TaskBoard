@@ -163,7 +163,7 @@ const Dashboard = () => {
 
                                 </div>
 
-                               <div className='flex items-center justify-between max-lg:flex-col max-lg:gap-3'>
+                               <div className='flex items-center justify-between max-lg:flex-col max-lg:gap-2'>
                                 <div className="flex space-x-4 mb-6">
                             
                                     <button
@@ -189,7 +189,7 @@ const Dashboard = () => {
                                     </button>
                                 </div>
 
-                                <div className='max-lg:mb-2'>
+                                <div className='max-lg:mb-4'>
                                     <button onClick={handleNewTask} className='bg-black hover:scale-105 transition-all duration-500 text-white px-4 py-2 rounded-lg font-semibold'>add new task</button>
                                 </div>
 
