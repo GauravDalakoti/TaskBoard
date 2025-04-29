@@ -189,7 +189,7 @@ const Dashboard = () => {
                                     </button>
                                 </div>
 
-                                <div className='max-lg:py-5'>
+                                <div className='max-lg:mb-2'>
                                     <button onClick={handleNewTask} className='bg-black hover:scale-105 transition-all duration-500 text-white px-4 py-2 rounded-lg font-semibold'>add new task</button>
                                 </div>
 
